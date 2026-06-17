@@ -34,6 +34,7 @@ Trabajo que se hace fuera de las llamadas recursivas, o sea los ciclos, verifica
 En caso de que se nos de ya la "formula" con los datos y queremos encontrar la solución, hay 3 casos posibles:
 
 Dado la ecuación: 
+
 $$
 T(n) = a T \left(\frac{n}{b} \right) + f(n)
 $$
@@ -41,7 +42,7 @@ $$
 tenemos que revisar los valores que nos dan para $a$ $b$ y $f(n)$, este ultimo como ya nos lo dan resuleto vendra de la forma $O(nᶜ)$ donde C sera la variable que tendremos que analizar, por lo que quedaria la formula asi
 
 $$
-T(n) = {\color{green}a} T \left( \frac{n}{{\color{cyan}b}} \right) + {\color{red}f(n)}
+T(n) = {\color{red}a} T \left( \frac{n}{{\color{red}b}} \right) + O(n{\color{red}ᶜ})
 $$
 
 
