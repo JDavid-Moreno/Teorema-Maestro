@@ -59,7 +59,7 @@ Sabemos de antemano que la complejidad de Merge Sort es $O(n \log n)$. A continu
 
 ![Formas](./Recursos/TeoremaMaestroMerge.jpeg)
 
-Como se puede observar, el cálculo nos conduce exactamente a la complejidad real de Merge Sort ($O(n \log n)$). Esto demuestra la efectividad del método, el cual puede aplicarse a cualquier algoritmo recursivo cuya estructura se ajuste a la del teorema.
+Como se puede observar, el cálculo nos conduce exactamente a la complejidad real de Merge Sort $O(n \log n)$. Esto demuestra la efectividad del método, el cual puede aplicarse a cualquier algoritmo recursivo cuya estructura se ajuste a la del teorema.
 
 ---
 
